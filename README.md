@@ -1,4 +1,4 @@
-# Sample Hexagonal Architecture PythonProject
+# Sample Hexagonal Architecture Python Project
 ## Setup, Development, and Testing Guide
 
 [![codecov](https://codecov.io/gh/7uperior/sample_project/branch/main/graph/badge.svg?token=e8020596-f3f4-4cb8-8146-d37df105f70b)](https://codecov.io/gh/7uperior/sample_project)
