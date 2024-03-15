@@ -1,7 +1,7 @@
 # Sample Hexagonal Architecture Python Project
 ## Setup, Development, and Testing Guide
 
-[![codecov](https://codecov.io/gh/7uperior/sample_project/branch/main/graph/badge.svg?token=e8020596-f3f4-4cb8-8146-d37df105f70b)](https://codecov.io/gh/7uperior/sample_project)
+[![codecov](https://codecov.io/gh/7uperior/sample_project/graph/badge.svg?token=92T902Z1V1)](https://codecov.io/gh/7uperior/sample_project)
 
 This guide outlines the setup, development, and testing processes for the Sample Project, a Python RESTful application implementing the Hexagonal Architecture pattern. It leverages FastAPI and SQLAlchemy for the backend, and is containerized using Docker for easy development and deployment.
 
