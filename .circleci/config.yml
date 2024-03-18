@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Run tests and collect coverage
           command: |
-            pytest --cov=tests.unit --cov-report=xml
+            pytest --cov=app --cov-report=xml
       - codecov/upload
 
 workflows:
