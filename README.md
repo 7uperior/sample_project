@@ -13,7 +13,7 @@ Before starting, ensure you have the following tools installed:
 
 ### Release Notes
 
-- Development is managed using Poetry. Docker containers are built using `requirements.txt`. Use the following command to update `requirements.txt` for Docker images as needed: `poetry export -f requirements.txt --output requirements.txt --without-hashes`
+- Development is managed using Poetry. Docker containers are built using `requirements.txt`. Use the following command to update `requirements.txt` for Docker images as needed: `pip freeze --local > requirements.txt`
 
 ### Setup Instructions
 
@@ -34,7 +34,7 @@ Execute the built-in unit tests by running `pytest` in the project's root direct
 To update project dependencies and synchronize the Docker environment:
 
 1. Update dependencies with `poetry update`.
-2. Export the updated dependencies to `requirements.txt` using `poetry export -f requirements.txt --output requirements.txt --without-hashes`.
+2. Export the updated dependencies to `requirements.txt` using `pip freeze --local > requirements.txt`.
 3. Rebuild and start the Docker environment with `docker-compose up --build` to apply the updates.
 
 ## Author
